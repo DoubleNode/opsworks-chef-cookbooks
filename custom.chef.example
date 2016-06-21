@@ -1,0 +1,16 @@
+{
+    "newrelic": {
+        "license": "---ADD-YOUR-NEWRELIC-LICENSE-HERE---",
+        "php-agent": {
+            "php_recipe": "mod_php5_apache2::default",
+            "config_file": "/etc/php.d/newrelic.ini"
+        },
+        "application_monitoring": {
+        	"appname": "My App1"
+        }
+    },
+    "remote_syslog": {
+        "port": "12345",
+        "host": "logs.rapplabs.com"
+    }
+} 
