@@ -1,5 +1,5 @@
 # Get the base directory that OpsWorks will deploy to
-deploy_to =node[:deploy][:api][:deploy_to]
+deploy_to =node[:deploy][:deploy_to]
 
 # chown the latest release directory
 ruby_block "chown_release_directory" do
